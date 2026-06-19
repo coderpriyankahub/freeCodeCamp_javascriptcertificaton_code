@@ -1,0 +1,13 @@
+let a = "Walking on water and developing software from a specification are easy if both are frozen";
+let b = "specification";
+function confirmEnding(a,b) {
+  let firstEndLetter = a[a.length - 1];
+  let secondEndLetter = b[b.length-1];
+  if(firstEndLetter === secondEndLetter) {
+    return true;
+  }
+  return false;
+}
+console.log(confirmEnding(a,b));
+
+//this is not a question this is a simple code that i made for to see last string of the letter matches to another last string of letter
