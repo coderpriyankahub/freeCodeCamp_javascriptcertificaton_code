@@ -1,0 +1,10 @@
+let a ="A-tisket a-tasket A green and yellow basket";
+let b = 8 ;
+function truncateString(a,b) {
+  if(a.length>b){
+    let newString = a.slice(0,b);
+    return newString + "...";
+  }
+  return a;
+}
+console.log(truncateString(a,b));
